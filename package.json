@@ -1,0 +1,33 @@
+{
+  "name": "tiny-graphql-fetch",
+  "version": "0.0.1-alpha",
+  "description": "A tiny, typed wrapper around fetch for GraphQL support.",
+  "main": "dist/index.js",
+  "exports": "./dist/graphql-fetch.modern.js",
+  "module": "dist/graphql-fetch.module.js",
+  "unpkg": "dist/graphql-fetch.umd.js",
+  "source": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhino88/graphql-fetch.git"
+  },
+  "keywords": [
+    "graphql",
+    "tiny",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhino88/graphql-fetch/issues"
+  },
+  "homepage": "https://github.com/rhino88/graphql-fetch#readme",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  }
+}

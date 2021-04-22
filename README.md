@@ -1,1 +1,1 @@
-# graphql-fetch
+# Tiny Graphql Fetch
