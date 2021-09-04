@@ -1,6 +1,6 @@
 {
   "name": "tiny-graphql-fetch",
-  "version": "0.0.1-alpha",
+  "version": "0.0.2-alpha",
   "description": "A tiny, typed wrapper around fetch for GraphQL support.",
   "main": "dist/index.js",
   "exports": "./dist/index.modern.js",
